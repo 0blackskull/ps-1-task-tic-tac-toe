@@ -107,6 +107,7 @@ function Game() {
   };
 
   const refreshbutton = () => {
+    console.log("Hi");
     updateCurrent(idData);
     updateCounter(0);
   };
